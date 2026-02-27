@@ -45,18 +45,6 @@ If you use this code or dataset in your research, please cite the above publicat
 This project is licensed under the MIT License 
 see the LICENSE file for details.
 
-## Citation
-
-If you use this toolbox or dataset in your research, please 
-cite:
-
-```bibtex
-@article{Bijandi2026lcpi,
-  title={[Title]},
-  author={[Authors]},
-  journal={[Journal]},
-  year={2026},
-  doi={[DOI]}
-}
-Contact
-Mehrdad Bijandi — bijandi@tafreshu.ac.ir
+## Contact
+Mehrdad Bijandi
+bijandi@tafreshu.ac.ir
