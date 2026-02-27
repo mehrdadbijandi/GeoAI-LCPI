@@ -11,25 +11,7 @@ accompanying the following publication:
 
 > Bijandi,M. (2026). [Title]. *[Journal Name]*, 
 > [Volume], [Pages]. DOI: []
-
-## Repository Structure
-GeoAI-LCPI/
-├── README.md
-├── LICENSE
-├── data/
-│ ├── README_data.md
-│ ├── input_SOM_CR.csv
-│ ├── input_SOM_EQ.csv
-│ ├── input_SOM_PCA.csv
-│ ├── input_SOM_SH.csv
-│ └── input_SOM_STD.csv
-├── toolbox/
-│ ├── README_toolbox.md
-│ ├── spatial_indices_module.py
-│ └── weighting_LCPI_module.py
-└── som_analysis/
-├── README_som.md
-└── SOM.py
+If you use this code or dataset in your research, please cite the above publication.
 
 ## Components
 
