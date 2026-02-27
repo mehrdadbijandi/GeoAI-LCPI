@@ -1,2 +1,79 @@
 # GeoAI-LCPI
-Land Consolidation Potential Index – Custom Geoprocessing Toolbox and GeoAI Analysis for Agricultural Parcel Prioritization
+
+**Land Consolidation Potential Index — Custom Geoprocessing 
+Toolbox and GeoAI-based Validation for Agricultural Parcel 
+Prioritization**
+
+## Overview
+
+This repository contains the source code and datasets 
+accompanying the following publication:
+
+> Bijandi,M. (2026). [Title]. *[Journal Name]*, 
+> [Volume], [Pages]. DOI: []
+
+## Repository Structure
+GeoAI-LCPI/
+├── README.md
+├── LICENSE
+├── data/
+│ ├── README_data.md
+│ ├── input_SOM_CR.csv
+│ ├── input_SOM_EQ.csv
+│ ├── input_SOM_PCA.csv
+│ ├── input_SOM_SH.csv
+│ └── input_SOM_STD.csv
+├── toolbox/
+│ ├── README_toolbox.md
+│ ├── spatial_indices_module.py
+│ └── weighting_LCPI_module.py
+└── som_analysis/
+├── README_som.md
+└── SOM.py
+
+## Components
+
+### 1. Custom Geoprocessing Toolbox (ArcGIS Pro)
+- **spatial_indices_module.py**: Computes four spatial 
+  indicators (Shape Index, Boundary Complexity, Tenure 
+  Fragmentation, Accessibility) for agricultural parcels
+- **weighting_LCPI_module.py**: Calculates LCPI using five 
+  weighting methods (CRITIC, Shannon Entropy, STD, PCA, 
+  Equal Weights)
+
+### 2. GeoAI Analysis (SOM)
+- Self-Organizing Map training and clustering scripts
+- Cluster validation and ANOVA analysis
+
+### 3. Sample Data
+- Normalized spatial indicator values for 363 agricultural 
+  parcels across three study areas
+- Five CSV files corresponding to five weighting scenarios
+
+## Requirements
+
+|  Component   |                    Requirements                     |
+|--------------|-----------------------------------------------------|
+| Toolbox      | ArcGIS Pro 3.x, Python 3.x, arcpy                   |
+| SOM Analysis | Python 3.x, MiniSom 2.3.1, NumPy, SciPy, Matplotlib |
+
+## License
+
+This project is licensed under the MIT License 
+see the LICENSE file for details.
+
+## Citation
+
+If you use this toolbox or dataset in your research, please 
+cite:
+
+```bibtex
+@article{Bijandi2026lcpi,
+  title={[Title]},
+  author={[Authors]},
+  journal={[Journal]},
+  year={2026},
+  doi={[DOI]}
+}
+Contact
+Mehrdad Bijandi — bijandi@tafreshu.ac.ir
