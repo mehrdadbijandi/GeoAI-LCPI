@@ -47,4 +47,4 @@ see the LICENSE file for details.
 
 ## Contact
 Mehrdad Bijandi
-bijandi@tafreshu.ac.ir
+mehrdadbijandi@gmail.com, bijandi@tafreshu.ac.ir
