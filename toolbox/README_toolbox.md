@@ -3,6 +3,10 @@
 ## Module 1: spatial_indices_module.py
 Automated computation of four spatial indicators (SI, BC, TF, AC)
 for agricultural parcels.
+- Parcel Shape Suitability Index (SI)
+- Boundary Complexity Index (BC)
+- Tenure Fragmentation Index (TF)
+- Accessibility Index (AC)
 
 ## Module 2: weighting_LCPI_module.py  
 LCPI calculation using five objective weighting methods 
