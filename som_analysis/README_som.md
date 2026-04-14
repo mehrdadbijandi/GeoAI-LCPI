@@ -1,7 +1,7 @@
 # SOM Analysis Scripts
 
 Self-Organizing Map training, clustering, and visualization.
-To reproduce the SOM analysis results use any of the provided CSV files as input.
+- To reproduce the SOM analysis results use any of the provided CSV files as input.
 
 ### Requirements
 - Python 3.x
