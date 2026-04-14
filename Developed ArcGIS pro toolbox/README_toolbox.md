@@ -13,7 +13,7 @@ for agricultural parcels.
 - The field containing unique identifiers for parcel owners (used to calculate Tenure Fragmentation).
 - The numeric field in the roads layer that specifies the width of each road segment.
 ### Output:
-- Results are appended as new attribute fields to the input feature class.
+- Results are appended as new attribute fields to the input polygon feature class.
 
 ## Module 2: weighting_LCPI_module.py  
 LCPI calculation using five objective weighting methods 
