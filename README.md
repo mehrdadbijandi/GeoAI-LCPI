@@ -1,6 +1,6 @@
 # GeoAI-LCPI
 
-**11test88Land Consolidation Potential Index — Custom Geoprocessing 
+**Land Consolidation Potential Index — Custom Geoprocessing 
 Toolbox and GeoAI-based Validation for Agricultural Parcel 
 Prioritization**
 
