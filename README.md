@@ -9,8 +9,7 @@ Prioritization**
 This repository contains the source code and datasets 
 accompanying the following publication:
 
-> Bijandi,M. (2026). [Title]. *[Journal Name]*, 
-> [Volume], [Pages]. DOI: []
+> Developing a Robust Land Consolidation Potential Index: A GeoAI-Based Validation Approach
 
 If you use this code or dataset in your research, please cite the above publication.
 
@@ -45,6 +44,4 @@ If you use this code or dataset in your research, please cite the above publicat
 This project is licensed under the MIT License 
 see the LICENSE file for details.
 
-## Contact
-Mehrdad Bijandi
-mehrdadbijandi@gmail.com, bijandi@tafreshu.ac.ir
+
