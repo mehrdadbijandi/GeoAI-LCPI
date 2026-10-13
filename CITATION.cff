@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and this software release."
+title: "GeoAI-LCPI: a configurable GIS toolbox for the Land Consolidation Potential Index with GeoAI-based diagnostic profiling"
+version: "1.0.0"
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/mehrdadbijandi/GeoAI-LCPI"
+authors:
+  - family-names: "Bijandi"
+    given-names: "Mehrdad"
+    affiliation: "Tafresh University"
+preferred-citation:
+  type: article
+  title: "A configurable GIS tool for parcel-level land consolidation prioritization with GeoAI-based diagnostic profiling"
+  authors:
+    - family-names: "Bijandi"
+      given-names: "Mehrdad"
+  journal: "Environmental Modelling & Software"
+  year: 2026
+  notes: "Submitted"
