@@ -9,7 +9,7 @@
 
 This repository contains the source code and data accompanying the article:
 
-> Bijandi, M. (2026). *A configurable GIS tool for parcel-level land consolidation prioritization with GeoAI-based diagnostic profiling.* Submitted to Environmental Modelling & Software.
+> Bijandi, M. (2026). *A configurable GIS tool for parcel-level land consolidation prioritization with GeoAI-based diagnostic profiling.* 
 
 The LCPI ranks agricultural parcels by their spatial-structural need for land consolidation. It combines four parcel-level indicators:
 
