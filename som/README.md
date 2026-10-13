@@ -10,7 +10,7 @@ These scripts group parcels by their profiles of the four normalized indicators 
 | Script | Purpose | Paper |
 |---|---|---|
 | `som_lcpi.py` | Trains the reference SOM, clusters the prototypes with Ward's method into four clusters, and reports quantization and topographic errors and figures | Sections 2.5 and 3.4; Figs. 6–8 |
-| `cluster_validity.py` | Retrains the same SOM and computes the within-cluster sum of squares, silhouette score, and Davies–Bouldin index for 2–17 clusters | Section 3.4.2; Fig. A.1 |
+| `cluster_validity.py` | Retrains the same SOM and computes the within-cluster sum of squares, silhouette score, and Davies–Bouldin index for 2–12 clusters | Section 3.4.2; Fig. A.1 |
 | `cluster_separation.py` | Separation of the SOM clusters by the LCPI of each weighting scheme: one-way ANOVA (F, R²), Welch's ANOVA, Kruskal–Wallis | Section 3.5; Table A.2 |
 | `minisom.py` | Copy of the MiniSom library used in the study (third-party) | – |
 
@@ -44,7 +44,7 @@ All outputs are written to `som/outputs/`:
 | `Enhanced_Dataset.csv` | input data with the column `SOM_Cluster` |
 | `SOM_Complete_Analysis_Hexagonal.png` | component planes, U-matrix, correlations of the neuron weights |
 | `SOM_Clustering_Results_Hexagonal.png` | LCPI plane, cluster map, LCPI by cluster, cluster profiles |
-| `cluster_validity.csv`, `cluster_validity.png` | validity indices for 2–17 clusters |
+| `cluster_validity.csv`, `cluster_validity.png` | validity indices for 2–12 clusters |
 | `cluster_separation.csv` | ANOVA, Welch and Kruskal–Wallis statistics per weighting scheme |
 
 ## Expected results with the data provided
@@ -55,8 +55,8 @@ All outputs are written to `som/outputs/`:
 | Topographic error | 0.0193 |
 | Cluster sizes (clusters 0–3) | 80, 152, 79, 52 |
 | Mean LCPI by cluster | 0.573, 0.615, 0.679, 0.821 |
-| Silhouette score (4 clusters) | 0.361, the highest for 2–17 clusters |
-| Davies–Bouldin index (4 clusters) | 0.897, the lowest |
+| Silhouette score (4 clusters) | 0.361, the highest for 2–12 clusters |
+| Davies–Bouldin index (4 clusters) | 0.897, the lowest for 2–12 clusters |
 | Equal Weights | ANOVA F = 139.3, R² = 0.54, the highest of the five schemes |
 
 Small numerical differences can occur with other library versions or hardware.

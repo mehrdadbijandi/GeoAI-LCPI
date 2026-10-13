@@ -1,7 +1,7 @@
 """
 Cluster validity indices for Ward clustering of the trained SOM prototypes (paper: Section 3.4.2, Fig. A.1).
 
-Retrains the reference SOM exactly as som_lcpi.py (same data, seeds and settings), then computes for k = 2..17:
+Retrains the reference SOM exactly as som_lcpi.py (same data, seeds and settings), then computes for k = 2..12:
   within-cluster sum of squares (elbow), silhouette score and Davies-Bouldin index of the prototype clustering.
 
 Usage:  python cluster_validity.py [input_csv] [shuffle_seed]
@@ -21,7 +21,7 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 
 W = som.get_weights().reshape(-1, X_scaled.shape[1])
 rows = []
-for k in range(2, 18):
+for k in range(2, 13):
     lab = AgglomerativeClustering(n_clusters=k, linkage='ward').fit_predict(W)
     wcss = sum(((W[lab == c] - W[lab == c].mean(0)) ** 2).sum() for c in range(k))
     rows.append(dict(k=k, wcss=wcss, silhouette=silhouette_score(W, lab), davies_bouldin=davies_bouldin_score(W, lab)))
@@ -34,7 +34,7 @@ for a, col, lab, best in [(ax[0], 'wcss', 'Within-cluster sum of squares', None)
                           (ax[2], 'davies_bouldin', 'Davies-Bouldin index', 'min')]:
     a.plot(t.k, t[col], 'o-', lw=1.4, ms=4)
     a.axvline(4, color='grey', ls='--', lw=0.8)
-    a.set_xlabel('Number of clusters'); a.set_ylabel(lab); a.grid(alpha=0.3); a.set_xticks(range(2, 18, 2))
+    a.set_xlabel('Number of clusters'); a.set_ylabel(lab); a.grid(alpha=0.3); a.set_xticks(range(2, 13, 2))
 for i, a in enumerate(ax):
     a.set_title('(%s)' % 'abc'[i], loc='left')
 fig.tight_layout(); fig.savefig(os.path.join(OUT, 'cluster_validity.png'), dpi=300)

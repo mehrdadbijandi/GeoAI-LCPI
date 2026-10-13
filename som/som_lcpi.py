@@ -38,7 +38,7 @@ random.seed(SEED)
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# MiniSom: the version used in this study is included alongside this script. script
+# MiniSom: the copy used in the study (minisom.py; third-party, under the MiniSom licence, not MIT) is shipped next to this script
 sys.path.insert(0, current_dir)
 from minisom import MiniSom
 
