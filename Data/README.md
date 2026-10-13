@@ -14,7 +14,7 @@ Normalized indicators and LCPI scores of the 363 paddy parcels of the three stud
 
 | Column | Description |
 |---|---|
-| `ID` | Parcel ID: Seraj-Mahalleh 1–175, Galeshkola 176–260, Bala-Bazyar 261–363 |
+| `ID` | Parcel ID |
 | `SI`, `BC`, `TF`, `AC` | Normalized indicators SIʹ, BCʹ, TFʹ, ACʹ |
 | `LCPI` | Land Consolidation Potential Index of the scheme |
 
