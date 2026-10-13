@@ -58,14 +58,6 @@ See the README of each folder for parameters, inputs, and outputs.
 | Toolbox | ArcGIS Pro 3.x (commercial licence) with its bundled Python 3 environment (ArcPy, NumPy, pandas) |
 | SOM analysis | Python ≥ 3.9 (tested with 3.11), NumPy, pandas, SciPy, scikit-learn, Matplotlib; MiniSom is included (`som/minisom.py`) |
 
-```bash
-pip install -r requirements.txt
-cd som
-python som_lcpi.py              # reference SOM and clusters
-python cluster_validity.py      # number of clusters
-python cluster_separation.py    # cluster separation by the LCPI of each weighting scheme
-```
-
 ## Data availability
 
 The cadastral parcel boundaries and ownership data of the study areas are subject to institutional restrictions and are not included. The folder `data/` contains the normalized indicator values and LCPI scores of the 363 parcels, without geometry or ownership information. These are sufficient to reproduce the SOM analysis.
