@@ -36,7 +36,7 @@ GeoAI-LCPI/
 │   └── README.md
 ├── som/              GeoAI analysis with a Self-Organizing Map
 │   ├── som_lcpi.py               SOM training, Ward clustering, figures
-│   ├── cluster_validity.py       elbow, silhouette and Davies–Bouldin indices (k = 2–17)
+│   ├── cluster_validity.py       elbow, silhouette and Davies–Bouldin indices (k = 2–12)
 │   ├── cluster_separation.py     ANOVA, Welch and Kruskal–Wallis tests of the clusters by the LCPI of each scheme
 │   ├── minisom.py                MiniSom copy used in the study (third-party)
 │   └── README.md
