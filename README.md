@@ -76,4 +76,4 @@ The code in this repository is released under the MIT License (see `LICENSE`). `
 
 ## Contact
 
-[Corresponding author name], [affiliation], [e-mail]. Please report problems through the GitHub *Issues* page.
+Mehrdad Bijandi, Assistant Professor, Department of Geodesy and Surveying Engineering, Tafresh University, bijandi@tafreshu.ac.ir
