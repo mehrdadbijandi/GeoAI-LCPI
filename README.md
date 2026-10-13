@@ -30,11 +30,11 @@ If you use this code or the data, please cite the article above.
 
 ```
 GeoAI-LCPI/
-├── toolbox/          ArcGIS Pro geoprocessing toolbox (indicators and LCPI)
-│   ├── spatial_indices_module.py    script tool "IndicesCalculation"
-│   ├── weighting_LCPI_module.py     script tool "LCPICalculation"
+├── Developed ArcGIS pro toolbox/          ArcGIS Pro geoprocessing toolbox (indicators and LCPI)
+│   ├── IndicesCalculation.py    script tool "IndicesCalculation"
+│   ├── LCPICalculation.py     script tool "LCPICalculation"
 │   └── README.md
-├── som/              GeoAI analysis with a Self-Organizing Map
+├── GeoAI analysis (SOM)/              GeoAI analysis with a Self-Organizing Map
 │   ├── som_lcpi.py               SOM training, Ward clustering, figures
 │   ├── cluster_validity.py       elbow, silhouette and Davies–Bouldin indices (k = 2–17)
 │   ├── cluster_separation.py     ANOVA, Welch and Kruskal–Wallis tests of the clusters by the LCPI of each scheme
