@@ -9,7 +9,7 @@ These scripts group parcels by their profiles of the four normalized indicators 
 
 | Script | Purpose | Paper |
 |---|---|---|
-| `som_lcpi.py` | Trains the reference SOM, clusters the prototypes with Ward's method into four clusters, and reports quantization and topographic errors and figures | Sections 2.5 and 3.4; Figs. 6–8 |
+| `SOM_LCPI.py` | Trains the reference SOM, clusters the prototypes with Ward's method into four clusters, and reports quantization and topographic errors and figures | Sections 2.5 and 3.4; Figs. 6–8 |
 | `cluster_validity.py` | Retrains the same SOM and computes the within-cluster sum of squares, silhouette score, and Davies–Bouldin index for 2–17 clusters | Section 3.4.2; Fig. A.1 |
 | `cluster_separation.py` | Separation of the SOM clusters by the LCPI of each weighting scheme: one-way ANOVA (F, R²), Welch's ANOVA, Kruskal–Wallis | Section 3.5; Table A.2 |
 | `minisom.py` | Copy of the MiniSom library used in the study (third-party) | – |
@@ -32,7 +32,7 @@ These scripts group parcels by their profiles of the four normalized indicators 
 
 ```bash
 pip install -r ../requirements.txt
-python som_lcpi.py [input_csv] [shuffle_seed]     # defaults: ../data/plusEQ.csv 71
+python SOM_LCPI.py [input_csv] [shuffle_seed]     # defaults: ../data/plusEQ.csv 71
 python cluster_validity.py [input_csv] [shuffle_seed]
 python cluster_separation.py                      # after som_lcpi.py
 ```
