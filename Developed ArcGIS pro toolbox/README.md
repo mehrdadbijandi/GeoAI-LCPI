@@ -72,5 +72,4 @@ Normalization and weights are computed over the parcels of the input layer. Run 
 ## Notes
 
 - All lengths and areas are computed in the units of the input coordinate system. Use a projected coordinate system in metres.
-- BC counts boundary vertices regardless of the size of the irregularities. Boundaries digitized with fine, spurious detail should be simplified (generalized) before running the tool.
 - The parameter values used in the paper are the defaults listed above.
