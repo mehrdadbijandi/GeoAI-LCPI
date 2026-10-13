@@ -28,8 +28,6 @@ These scripts group parcels by their profiles of the four normalized indicators 
 | Seeds | random seed 42; training order (shuffle seed) 71 |
 | Clustering | Ward agglomerative clustering of the prototypes, 4 clusters |
 
-The SOM partition depends on the order in which parcels are presented during training. The training-order seed is therefore an explicit argument. The paper reports the stability of the partition across 119 training orders and alternative settings.
-
 ## Usage
 
 ```bash
