@@ -9,7 +9,7 @@
 
 This repository contains the source code and data accompanying the article:
 
-> [Authors] (2026). *A Configurable GIS Tool for Parcel-Level Land Consolidation Prioritization: Validated Reference-Based Indicators, Uncertainty Analysis, and GeoAI Diagnostic Profiling.* Environmental Modelling & Software (submitted).
+> Bijandi M. (2026). *A configurable GIS tool for parcel-level land consolidation prioritization with GeoAI-based diagnostic profiling.* 
 
 The LCPI ranks agricultural parcels by their spatial-structural need for land consolidation. It combines four parcel-level indicators:
 
@@ -24,7 +24,7 @@ The indicators are normalized within each study area (inverted min–max, so tha
 
 The LCPI shows **where** consolidation is most needed. A Self-Organizing Map (SOM) of the four normalized indicators adds a diagnostic profile, showing **which deficiencies** drive that need.
 
-If you use this code or the data, please cite the article above and the software release (see `CITATION.cff`).
+If you use this code or the data, please cite the article above.
 
 ## Repository structure
 
@@ -43,8 +43,7 @@ GeoAI-LCPI/
 ├── data/             normalized indicators and LCPI of the 363 study parcels
 │   └── README.md
 ├── requirements.txt  Python packages for the SOM analysis
-├── CITATION.cff
-└── LICENSE
+├── LICENSE
 ```
 
 ## Workflow
@@ -80,4 +79,4 @@ The code in this repository is released under the MIT License (see `LICENSE`). `
 
 ## Contact
 
-[Corresponding author name], [affiliation], [e-mail]. Please report problems through the GitHub *Issues* page.
+Mehrdad Bijandi, Assistant Professor, Department of Geodesy and Surveying Engineering, Tafresh University,  bijandi@tafreshu.ac.ir. 
