@@ -4,8 +4,8 @@ A geoprocessing toolbox with two Python script tools that compute the four parce
 
 | Script tool | Source file | Purpose |
 |---|---|---|
-| **IndicesCalculation** | `spatial_indices_module.py` | Computes SI, BC, TF, and AC for each parcel |
-| **LCPICalculation** | `weighting_LCPI_module.py` | Normalizes the indicators, derives the weights, and computes the LCPI |
+| **IndicesCalculation** | `IndicesCalculation.py` | Computes SI, BC, TF, and AC for each parcel |
+| **LCPICalculation** | `LCPICalculation.py` | Normalizes the indicators, derives the weights, and computes the LCPI |
 
 ## Requirements
 
