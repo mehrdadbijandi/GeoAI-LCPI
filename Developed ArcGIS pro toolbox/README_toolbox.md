@@ -1,6 +1,6 @@
 # ArcGIS Pro Custom Geoprocessing Toolbox
 
-## Module 1: spatial_indices_module.py
+## Module 1: IndicesCalculation.py
 Automated computation of four spatial indicators (SI, BC, TF, AC)
 for agricultural parcels.
 - Parcel Shape Suitability Index (SI)
@@ -15,7 +15,7 @@ for agricultural parcels.
 ### Output:
 - Results are appended as new attribute fields to the input polygon feature class.
 
-## Module 2: weighting_LCPI_module.py  
+## Module 2: LCPICalculation.py  
 LCPI calculation using five objective weighting methods 
 (CRITIC, Shannon Entropy, STD, PCA, Equal Weights).
 ### Requied Input:  
