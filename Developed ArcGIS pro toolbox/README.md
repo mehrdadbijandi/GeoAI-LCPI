@@ -15,8 +15,7 @@ A geoprocessing toolbox with two Python script tools that compute the four parce
 ## Installation
 
 1. Download or clone this repository.
-2. In ArcGIS Pro, open the *Catalog* pane, right-click *Toolboxes* → *Add Toolbox*, and select the toolbox file in this folder.
-3. If you only have the scripts, create a new toolbox and add two script tools. Point them to the `.py` files and define the parameters listed below, in the same order.
+2. In ArcGIS Pro, create a new toolbox and add two script tools. Point them to the `.py` files and define the parameters listed below, in the same order.
 
 ## Tool 1 – IndicesCalculation
 
