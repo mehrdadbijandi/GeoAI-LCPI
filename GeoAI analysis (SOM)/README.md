@@ -10,8 +10,6 @@ These scripts group parcels by their profiles of the four normalized indicators 
 | Script | Purpose | Paper |
 |---|---|---|
 | `som_lcpi.py` | Trains the reference SOM, clusters the prototypes with Ward's method into four clusters, and reports quantization and topographic errors and figures | Sections 2.5 and 3.4; Figs. 6–8 |
-| `cluster_validity.py` | Retrains the same SOM and computes the within-cluster sum of squares, silhouette score, and Davies–Bouldin index for 2–17 clusters | Section 3.4.2; Fig. A.1 |
-| `cluster_separation.py` | Separation of the SOM clusters by the LCPI of each weighting scheme: one-way ANOVA (F, R²), Welch's ANOVA, Kruskal–Wallis | Section 3.5; Table A.2 |
 | `minisom.py` | Copy of the MiniSom library used in the study (third-party) | – |
 
 ## Reference configuration
@@ -27,8 +25,6 @@ These scripts group parcels by their profiles of the four normalized indicators 
 | Iterations | 100,000 (random sample order) |
 | Seeds | random seed 42; training order (shuffle seed) 71 |
 | Clustering | Ward agglomerative clustering of the prototypes, 4 clusters |
-
-The SOM partition depends on the order in which parcels are presented during training. The training-order seed is therefore an explicit argument. The paper reports the stability of the partition across 119 training orders and alternative settings.
 
 ## Usage
 
