@@ -9,7 +9,7 @@
 
 This repository contains the source code and data accompanying the article:
 
-> [Authors] (2026). *A Configurable GIS Tool for Parcel-Level Land Consolidation Prioritization: Validated Reference-Based Indicators, Uncertainty Analysis, and GeoAI Diagnostic Profiling.* Environmental Modelling & Software (submitted).
+> [Authors] (2026). *A configurable GIS tool for parcel-level land consolidation prioritization with GeoAI-based diagnostic profiling.* .
 
 The LCPI ranks agricultural parcels by their spatial-structural need for land consolidation. It combines four parcel-level indicators:
 
@@ -36,9 +36,6 @@ GeoAI-LCPI/
 │   └── README.md
 ├── som/              GeoAI analysis with a Self-Organizing Map
 │   ├── som_lcpi.py               SOM training, Ward clustering, figures
-│   ├── cluster_validity.py       elbow, silhouette and Davies–Bouldin indices (k = 2–17)
-│   ├── cluster_separation.py     ANOVA, Welch and Kruskal–Wallis tests of the clusters by the LCPI of each scheme
-│   ├── minisom.py                MiniSom copy used in the study (third-party)
 │   └── README.md
 ├── data/             normalized indicators and LCPI of the 363 study parcels
 │   └── README.md
